@@ -1,0 +1,148 @@
+*{
+  margin:0;
+  box-sizing: border-box;
+}
+
+body{
+
+
+}
+
+.firstSection{
+  display:flex;
+ height:100vh;
+  width: 100%;
+ background-image: url('/images/newLandingPage.png');
+background-size: 83%;
+background-repeat:no-repeat; 
+  
+  
+
+}
+
+
+.navSec{
+width: 20%;
+
+}
+
+
+.navBar{
+  display:flex;
+  flex-direction: column;
+  align-items: flex-end;
+
+}
+
+.navList{
+list-style: none;
+text-decoration: underline;
+line-height: 3.5;
+margin-top: 120%;
+font-size: 1.2rem;
+text-align: center;
+}
+
+.leftLanding{
+width: 75%;
+color:white;
+display:flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+text-align: center;
+}
+
+.landingTitle{
+  font-size: 5rem;
+  font-weight: lighter;
+}
+
+.landingTitleLabel{
+font-size: 1.2rem;
+font-weight: lighter;
+margin-top: 2%;
+}
+
+.secondSection{
+  height: 100vh;
+  width:100%;
+  display:flex;
+  margin-bottom: 5%;
+  
+}
+
+.secondSecInfo{
+  width:50%;
+  margin-top: 6%;
+  padding:5%;
+}
+
+.aboutMe{
+  font-size: 5rem;
+}
+
+.aboutMeDescription,
+.aboutMeDes2{
+  font-size: 1.2rem;
+  margin-top: 2%;
+  line-height: 2.5;
+}
+
+.secondSecPic{
+  background-image: url('/images/aboutMePic.jpg');
+  background-size: cover;
+  width: 40%;
+  height:90vh;
+  margin-top: 9%;
+}
+
+.thirdSection{
+  height: 100vh;
+  width:100%;
+}
+
+.thirdSecTitle{
+  font-size: 1.8rem;
+}
+
+.recentWorkPics{
+  width: 100%;
+  display: flex;
+
+}
+
+.pictures{
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  padding: 2%;
+}
+
+
+.pictures > img{
+  height:70vh;
+  /* width: 30%; */
+}
+
+.pictures > span{
+  margin-top: 5%;
+  font-size: 1.2rem;
+  font-weight: lighter;
+}
+
+/* .recentWorkPics > .firstPic{
+  height:70vh;
+  width: 30%;
+  
+}
+
+.recentWorkPics > .secondPic{
+  height:70vh;
+  width: 30%;
+}
+
+.recentWorkPics > .thirdPic{
+  height:70vh;
+  width: 30%;
+} */
