@@ -3,10 +3,6 @@
   box-sizing: border-box;
 }
 
-body{
-
-
-}
 
 .firstSection{
   display:flex;
@@ -122,7 +118,7 @@ margin-top: 2%;
 
 .pictures > img{
   height:70vh;
-  /* width: 30%; */
+  
 }
 
 .pictures > span{
@@ -131,18 +127,3 @@ margin-top: 2%;
   font-weight: lighter;
 }
 
-/* .recentWorkPics > .firstPic{
-  height:70vh;
-  width: 30%;
-  
-}
-
-.recentWorkPics > .secondPic{
-  height:70vh;
-  width: 30%;
-}
-
-.recentWorkPics > .thirdPic{
-  height:70vh;
-  width: 30%;
-} */
