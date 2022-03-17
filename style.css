@@ -100,6 +100,7 @@ margin-top: 2%;
 
 .thirdSecTitle{
   font-size: 1.8rem;
+  margin-left: 3%;
 }
 
 .recentWorkPics{
@@ -127,3 +128,111 @@ margin-top: 2%;
   font-weight: lighter;
 }
 
+.fourthSection{
+height: 100vh;
+width: 100%;
+
+}
+
+.fourthTitle{
+  font-size: 1.8rem;
+  padding-bottom: 18%;
+ 
+}
+
+
+.fourthSecPics{
+  width: 100%;
+  display: flex;
+}
+
+.pplPicture{
+  display:flex;
+  flex-direction: column;
+  width: 33%;
+  padding: 2%;
+}
+
+.pplPicture > img{
+  height: 75vh;
+  /* margin: 6% 0; */
+  padding: 3% 0
+}
+
+.pplPicture > span{
+  font-size: 1.2rem;
+  font-weight: lighter;
+}
+
+.fifthSection{
+  height: 100vh;
+  width: 100%;
+}
+
+.fifthSecPics{
+width: 100%;
+display: flex;
+}
+
+.fifthTitle{
+  font-size: 1.8rem;
+  padding-left: 5%;
+  font-weight: lighter;
+  margin-top: 1%;
+}
+
+.citiesPics{
+  display: flex;
+  flex-direction: column;
+  width: 33%;
+  padding: 4% 3%;
+  justify-content: center;
+  text-align: center;
+}
+
+.citiesPics > img{
+  height: 70vh;
+  margin-bottom: 5%;
+  
+}
+
+.contactSection{
+  height: 100vh;
+  width: 100%;
+  background-image: url('https://images.unsplash.com/photo-1506850981415-e1911e907185?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  
+}
+
+.contactMessage{
+  font-size: 5rem;
+  width: 60%;
+  text-align: center;
+font-weight: lighter;
+}
+
+.message{
+  font-size: 1.5rem;
+  font-weight: lighter;
+  padding: 2%;
+}
+
+.contactInfo{
+  font-size: 1.2rem;
+  padding-bottom: 8%;
+}
+
+.connectBtn{
+  width: 15%;
+  height: 6%;
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+}
