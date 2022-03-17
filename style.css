@@ -39,6 +39,10 @@ font-size: 1.2rem;
 text-align: center;
 }
 
+li > a{
+  color: black;
+}
+
 .leftLanding{
 width: 75%;
 color:white;
